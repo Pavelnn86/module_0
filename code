@@ -1,10 +1,10 @@
-def game_core_v3(number):
+def game_core_v3(number):  # начало функции
     predict = 50
     count = 1
-    if predict < number:
+    if predict < number:      # условный оператор if-elif-else,который будет сравнивать значения по цепочке
         predict += 25
         count += 1
-        if predict < number:
+        if predict < number:    # операторы сравнения < / > / <= / >= / == / != 
             predict += 12
             count += 1
             if predict < number:
@@ -35,7 +35,7 @@ def game_core_v3(number):
                 predict += 7
             else:
                 predict -= 6
-    while predict < number:
+    while predict < number:    # цикл while будет выполняеться до тех пор, пока не найдет число 
         predict += 1
         count += 1
     while predict > number:

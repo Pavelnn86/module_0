@@ -1,5 +1,5 @@
 # module_0
-Final work. Guess number.
+Итоговое задание по модулю 0. Улучшить программы по угадыванию числа. 
 
 def game_core_v3(number):
     predict = 50
